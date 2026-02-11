@@ -1,46 +1,28 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
-           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
-           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
-           <command> [<args>]
 
-These are common Git commands used in various situations:
+         # Resume Website
 
-start a working area (see also: git help tutorial)
-   clone      Clone a repository into a new directory
-   init       Create an empty Git repository or reinitialize an existing one
+         Simple static resume/portfolio website for the Final Exam project.
 
-work on the current change (see also: git help everyday)
-   add        Add file contents to the index
-   mv         Move or rename a file, a directory, or a symlink
-   restore    Restore working tree files
-   rm         Remove files from the working tree and from the index
+         Files
+         - index.html — main HTML page (resume content and sections)
+         - style.css — styles for the site
+         - script.js — interactive behaviors (if any)
 
-examine the history and state (see also: git help revisions)
-   bisect     Use binary search to find the commit that introduced a bug
-   diff       Show changes between commits, commit and working tree, etc
-   grep       Print lines matching a pattern
-   log        Show commit logs
-   show       Show various types of objects
-   status     Show the working tree status
+         How to view
+         - Open [index.html](index.html) in your browser.
+         - Or serve locally (recommended) by running a simple HTTP server from this folder, for example:
 
-grow, mark and tweak your common history
-   backfill   Download missing objects in a partial clone
-   branch     List, create, or delete branches
-   commit     Record changes to the repository
-   merge      Join two or more development histories together
-   rebase     Reapply commits on top of another base tip
-   reset      Reset current HEAD to the specified state
-   switch     Switch branches
-   tag        Create, list, delete or verify tags
+         ```bash
+         python -m http.server 8000
+         # then open http://localhost:8000 in your browser
+         ```
 
-collaborate (see also: git help workflows)
-   fetch      Download objects and refs from another repository
-   pull       Fetch from and integrate with another repository or a local branch
-   push       Update remote refs along with associated objects
+         Notes
+         - This is a small, static site intended for a resume or portfolio showcase.
+         - Update `index.html`, `style.css`, and `script.js` as needed to personalize content.
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+         License
+         - Use or adapt this project for coursework or personal portfolio purposes.
+
+         Contact
+         - For questions about the project, update the repository README with contact details.
