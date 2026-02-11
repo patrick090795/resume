@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrick Resume</title>
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+
+      <div class="profile">
+        <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+        <h2>Jean Aime Patrick</h2>
+
+        <!-- Typing Animation -->
+        <p class="role typing-text"></p>
+      </div>
+
+      <div class="sidebar-info">
+
+        <div class="info-box">
+          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <span>EMAIL</span>
+            <p>niyonzimaj@cua.edu</p>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <div class="icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <span>PHONE</span>
+            <p>+1 (771) 242-6073</p>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <span>LOCATION</span>
+            <p>Washington, DC</p>
+          </div>
+        </div>
+
+        <div class="info-box">
+          <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+          <div>
+            <span>LINKEDIN</span>
+            <a href="https://www.linkedin.com/in/patrick2016/" target="_blank">View Profile</a>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="download-btn" id="downloadResumeBtn">
+  <i class="fa-solid fa-download"></i> Download Resume
+</button>
+
+
+      <!-- Dark Mode Switch -->
+      <button class="darkmode-btn" id="darkModeToggle">
+        <i class="fa-solid fa-moon"></i> Dark Mode
+      </button>
+
+    </aside>
+
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <button class="nav-btn active" data-section="about">About</button>
+        <button class="nav-btn" data-section="education">Education</button>
+        <button class="nav-btn" data-section="experience">Experience</button>
+        <button class="nav-btn" data-section="projects">Projects</button>
+        <button class="nav-btn" data-section="testimonials">Testimonials</button>
+        <button class="nav-btn" data-section="contact">Contact</button>
+      </nav>
+
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section active-section">
+        <h1>About Me</h1>
+        <div class="underline"></div>
+
+        <p>
+          I'm a passionate and solution-driven Computer Science graduate student at The Catholic University of America,
+          with hands-on experience in DevOps, cloud infrastructure, and full-stack development.
+          I enjoy automating workflows and building scalable systems using AWS, Docker, Jenkins, Git, and Python.
+        </p>
+
+        <p>
+          I have worked in academic research environments, DevOps internship roles, and event operations support,
+          gaining strong communication and technical skills.
+        </p>
+
+        <h2>What I'm Doing</h2>
+
+        <div class="cards">
+
+          <div class="card">
+            <i class="fa-solid fa-cloud"></i>
+            <h3>Cloud Deployment</h3>
+            <p>Deploying scalable infrastructure using AWS and cloud tools.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-gears"></i>
+            <h3>DevOps & Automation</h3>
+            <p>Building CI/CD pipelines with Jenkins, Docker, and automation scripts.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Machine Learning</h3>
+            <p>Creating ML models and prediction systems for real-world data.</p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Full Stack Apps</h3>
+            <p>Building applications using React, Django, APIs, and databases.</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- EDUCATION SECTION -->
+      <section id="education" class="section">
+        <h1>Education</h1>
+        <div class="underline"></div>
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <h3>The Catholic University of America</h3>
+            <span>Master of Science in Computer Science (Aug 2024 – May 2026)</span>
+            <p>Relevant Coursework: Machine Learning, Deep Learning, Web Development, Secure Computing, Network Security.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Marwadi University, India</h3>
+            <span>Bachelor of Technology (Oct 2020 – May 2024)</span>
+            <p>Relevant Coursework: OS, DBMS, Cryptography, Cloud Computing, AI/ML, Data Structures.</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- EXPERIENCE SECTION -->
+      <section id="experience" class="section">
+        <h1>Experience</h1>
+        <div class="underline"></div>
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <h3>Operations Assistant - CUA</h3>
+            <span>Oct 2025 – Present</span>
+            <p>Handled customer service, event operations, maintenance requests, and supervised setup crews.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>DevOps Engineer Intern - Smart Rewards Inc.</h3>
+            <span>Nov 2024 – Apr 2025</span>
+            <p>Monitored system performance, troubleshooted issues, and supported infrastructure reliability.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Teacher’s Assistant & Research Assistant - CUA</h3>
+            <span>Jan 2025 – Apr 2025</span>
+            <p>Supported research through data analysis and reporting using Python and Excel.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>ALP Community Moderator (Volunteer)</h3>
+            <span>Apr 2024 – May 2024</span>
+            <p>Managed Discord servers, ensured safe environment, handled conflicts, and organized events.</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="section">
+        <h1>Projects</h1>
+        <div class="underline"></div>
+
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+          <button class="filter-btn" data-filter="web">Web App</button>
+          <button class="filter-btn" data-filter="cloud">Cloud</button>
+        </div>
+
+        <div class="project-grid">
+
+          <div class="project-card ml">
+            <h3>Flight Fare Prediction</h3>
+            <p>ML model to predict flight prices using Random Forest, KNN, Decision Trees.</p>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+
+          <div class="project-card cloud web">
+            <h3>Ceremony Planning Platform</h3>
+            <p>React + Django app integrated with cloud services for scalable storage.</p>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+
+          <div class="project-card ml">
+            <h3>Student Feedback Analyzer (NLP)</h3>
+            <p>NLP sentiment analyzer to interpret student feedback and improve education quality.</p>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- TESTIMONIALS SECTION -->
+      <section id="testimonials" class="section">
+        <h1>Testimonials</h1>
+        <div class="underline"></div>
+
+        <div class="testimonial-grid">
+
+          <div class="testimonial-card">
+            <p>
+              "Patrick is a hardworking and reliable individual. His technical ability and dedication to problem-solving
+              are outstanding."
+            </p>
+            <h3>- Supervisor (CUA)</h3>
+          </div>
+
+          <div class="testimonial-card">
+            <p>
+              "Excellent teamwork and communication skills. Patrick consistently delivered tasks on time and improved our
+              system reliability."
+            </p>
+            <h3>- DevOps Team Lead</h3>
+          </div>
+
+          <div class="testimonial-card">
+            <p>
+              "Patrick showed strong research and data analysis skills. He was highly professional and very consistent."
+            </p>
+            <h3>- Research Professor</h3>
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="section">
+        <h1>Contact</h1>
+        <div class="underline"></div>
+
+        <p>Feel free to reach out to me anytime.</p>
+
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
