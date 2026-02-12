@@ -18,6 +18,11 @@ navButtons.forEach(button => {
 
     const target = button.getAttribute("data-section");
     document.getElementById(target).classList.add("active-section");
+
+    // Auto-close hamburger menu on mobile
+    if (window.innerWidth <= 900 && navbarMenu.classList.contains("show")) {
+      navbarMenu.classList.remove("show");
+    }
   });
 });
 
